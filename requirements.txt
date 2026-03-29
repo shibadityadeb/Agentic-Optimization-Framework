@@ -1,3 +1,5 @@
+matplotlib
+pandas
 anthropic
 httpx
 python-dotenv

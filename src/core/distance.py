@@ -22,12 +22,16 @@ def state_distance(
     Returns:
         Numeric distance (lower means more similar).
     """
-    length_diff = abs(len(getattr(s1, "output", "")) - len(getattr(s2, "output", "")))
-    distance = output_length_weight * float(length_diff)
-
+    # Simulate more meaningful distance: use word-level difference
+    out1 = getattr(s1, "output", "")
+    out2 = getattr(s2, "output", "")
+    words1 = set(out1.split())
+    words2 = set(out2.split())
+    word_diff = len(words1.symmetric_difference(words2))
+    length_diff = abs(len(out1) - len(out2))
+    # Weighted sum: word diff dominates, length diff secondary
+    distance = output_length_weight * (0.7 * word_diff + 0.3 * (length_diff / 10))
     if use_cosine_placeholder:
-        # Placeholder for future embedding-based similarity.
-        # When embeddings are available, replace this with a real cosine similarity.
         if cosine_similarity is None:
             cosine_similarity = 0.0
         distance += 1.0 - float(cosine_similarity)
