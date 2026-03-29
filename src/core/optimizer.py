@@ -1,15 +1,13 @@
 from __future__ import annotations
 
 from typing import Any, Callable, Awaitable
+
 from .cost import compute_cost
 from .distance import state_distance
-
+from .progress import compute_progress
 
 LAMBDA = 0.5
-MU = 0.05
-
-def progress(state):
-    return len(getattr(state, 'output', ''))
+MU = 0.5
 
 
 async def choose_best_action(state, actions: list[Callable[[Any], Awaitable[Any]]]):
@@ -38,7 +36,7 @@ async def choose_best_action(state, actions: list[Callable[[Any], Awaitable[Any]
             next_state = await forced_action(test_state)
             cost = compute_cost(next_state, state)
             distance = state_distance(next_state, state)
-            prog = progress(next_state)
+            prog = compute_progress(next_state)
             score = cost + (1.0 / LAMBDA) * distance - MU * prog
             return forced_action, next_state, score
 
@@ -53,7 +51,7 @@ async def choose_best_action(state, actions: list[Callable[[Any], Awaitable[Any]
         next_state = await action(test_state)
         cost = compute_cost(next_state, state)
         distance = state_distance(next_state, state)
-        prog = progress(next_state)
+        prog = compute_progress(next_state)
         score = cost + (1.0 / LAMBDA) * distance - MU * prog
         if score < best_score:
             best_score = score
@@ -67,7 +65,7 @@ async def choose_best_action(state, actions: list[Callable[[Any], Awaitable[Any]
             next_state = await action(test_state)
             cost = compute_cost(next_state, state)
             distance = state_distance(next_state, state)
-            prog = progress(next_state)
+            prog = compute_progress(next_state)
             score = cost + (1.0 / LAMBDA) * distance - MU * prog
             if score < best_score:
                 best_score = score

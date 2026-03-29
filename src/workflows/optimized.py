@@ -26,6 +26,7 @@ async def run_optimized(state):
     if not hasattr(state, "token_usage"):
         state.token_usage = 0
     prev_state = state.copy()
+    from src.core.progress import compute_progress
     last_actions = []
     while step < max_steps:
         action_fns = list(ACTION_MAP.values())
@@ -35,11 +36,12 @@ async def run_optimized(state):
         # 2. Compute cost and distance (distance to previous state)
         cost = compute_cost(best_next_state, prev_state)
         distance = state_distance(best_next_state, prev_state)
+        progress_val = compute_progress(best_next_state)
         # 3. Log step
         action_name = [k for k, v in ACTION_MAP.items() if v == best_action_fn][0]
-        logger.log_step(step+1, action_name, cost, distance, score, getattr(best_next_state, 'output', ''))
+        logger.log_step(step+1, action_name, cost, distance, score, getattr(best_next_state, 'output', ''), progress=progress_val)
         # 4. Print log line
-        print(f"Step {step+1} | Action: {action_name} | Cost: {cost:.2f} | Dist: {distance:.2f} | Score: {score:.2f}")
+        print(f"Step {step+1} | Action: {action_name} | Cost: {cost:.2f} | Dist: {distance:.2f} | Score: {score:.2f} | Progress: {progress_val:.2f}")
         # 5. Apply action
         prev_state = state
         state = await best_action_fn(state)
