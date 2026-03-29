@@ -1,18 +1,3 @@
-## Anthropic Claude LLM Setup
-
-1. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-2. Set your Anthropic API key:
-   - Copy `.env.example` to `.env` and add your real API key.
-
-   # Agentic Optimization Framework
-
-   > **A research framework for mathematically optimized, convergence-aware multi-agent LLM workflows.**
-
-   ---
 
    ## 🚀 Overview
 
