@@ -1,5 +1,5 @@
 import asyncio
-
+from src.benchmarks.runner import run_benchmark
 
 async def main() -> None:
     # Placeholder async entrypoint for agent optimization workflows.
@@ -7,4 +7,6 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    print("Starting Agentic Optimization Benchmark...\n")
+    asyncio.run(run_benchmark())
+    print("\nBenchmark complete.")

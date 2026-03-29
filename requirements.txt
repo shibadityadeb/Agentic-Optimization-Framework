@@ -1,3 +1,5 @@
 anthropic
+httpx
+python-dotenv
 numpy
 python-dotenv
