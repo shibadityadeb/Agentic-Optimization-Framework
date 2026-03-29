@@ -8,41 +8,23 @@
     {
       "step": 2,
       "action": "analyzer",
-      "cost": 7.49
+      "cost": 264.895
     },
     {
       "step": 3,
       "action": "decision",
-      "cost": 23.750000000000004
+      "cost": 156.39499999999998
     }
   ],
   "optimized": [
     {
       "step": 1,
       "action": "analyzer",
-      "cost": 7.49,
-      "distance": 5.579999999999999,
-      "score": 18.5,
-      "progress": 0.3,
-      "output": "Analysis:\nTesla stock shows strong volatility."
-    },
-    {
-      "step": 2,
-      "action": "analyzer",
-      "cost": 15.805,
-      "distance": 12.01,
-      "score": 25.575,
-      "progress": 0.6,
-      "output": "Analysis:\nTesla stock shows strong volatility.\n\nTr..."
-    },
-    {
-      "step": 3,
-      "action": "analyzer",
-      "cost": 18.895,
-      "distance": 9.79,
-      "score": 22.0,
+      "cost": 295.085,
+      "distance": 190.17,
+      "score": 675.025,
       "progress": 0.8,
-      "output": "Analysis:\nTesla stock shows strong volatility.\n\nTr..."
+      "output": "Here is the next version of the report on Tesla st..."
     }
   ]
 }
