@@ -41,15 +41,37 @@ import random
 async def run(state: "State") -> "State":
     new_state = state.copy()
     old_output = new_state.output or ""
-    # Compose a prompt for the LLM based on the current state
-    prompt = f"""
-You are an expert financial analyst agent. Your task is to analyze the following query and incrementally build a structured report. Each time you are called, you receive the current report so far. Add new insights, trends, risks, or analysis as appropriate, and never repeat content. If the report is already complete, refine or clarify it further.
+    stage = getattr(new_state, "steps", 0)
+
+    if stage == 0:
+        prompt = f"""
+You are an expert financial analyst agent. Your task is to provide an initial rough analysis for the following query. Do NOT give a final answer or recommendation. Focus only on a high-level, preliminary assessment.
 
 Query: {new_state.query}
 Current Report:
+{old_output}
 
+Give only a rough, initial analysis. Do not provide a final recommendation yet.
+"""
+    elif stage == 1:
+        prompt = f"""
+You are an expert financial analyst agent. Refine the previous analysis for the following query. Add trends and risks, and improve the detail. Do NOT provide a final recommendation yet.
 
-Respond with the next improved version of the report. Do not repeat previous content. Be concise and structured.
+Query: {new_state.query}
+Current Report:
+{old_output}
+
+Add trends and risks. Do not provide a final recommendation yet.
+"""
+    else:
+        prompt = f"""
+You are an expert financial analyst agent. Finalize the analysis for the following query. Complete the report and include a clear, actionable recommendation at the end.
+
+Query: {new_state.query}
+Current Report:
+{old_output}
+
+Finalize the analysis and provide a final recommendation.
 """
     response, tokens = await call_anthropic(prompt)
     if response.strip():

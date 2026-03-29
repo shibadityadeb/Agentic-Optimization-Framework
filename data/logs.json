@@ -8,23 +8,23 @@
     {
       "step": 2,
       "action": "analyzer",
-      "cost": 264.895
+      "cost": 311.575
     },
     {
       "step": 3,
       "action": "decision",
-      "cost": 156.39499999999998
+      "cost": 183.825
     }
   ],
   "optimized": [
     {
       "step": 1,
       "action": "analyzer",
-      "cost": 295.085,
-      "distance": 190.17,
-      "score": 675.025,
-      "progress": 0.8,
-      "output": "Here is the next version of the report on Tesla st..."
+      "cost": 272.28499999999997,
+      "distance": 180.57,
+      "score": 632.9749999999999,
+      "progress": 0.9,
+      "output": "Here is a preliminary, high-level analysis of Tesl..."
     }
   ]
 }

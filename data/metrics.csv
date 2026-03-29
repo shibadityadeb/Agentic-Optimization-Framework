@@ -1,5 +1,0 @@
-step,action,cost,workflow_type,distance,score,progress,output
-1,retriever,0.1,baseline,,,,
-2,analyzer,264.895,baseline,,,,
-3,decision,156.39499999999998,baseline,,,,
-1,analyzer,295.085,optimized,190.17,675.025,0.8,Here is the next version of the report on Tesla st...
