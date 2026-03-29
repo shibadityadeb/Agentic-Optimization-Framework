@@ -33,12 +33,27 @@ async def run_optimized(state):
         # 1. Choose best action and get score
         state._last_actions = last_actions
         best_action_fn, best_next_state, score = await choose_best_action(state, action_fns)
+        # Fallback if no valid action is found
+        if best_action_fn is None:
+            # fallback to analyzer.run
+            best_action_fn = analyzer.run
+            best_next_state = await analyzer.run(state.copy())
+            score = float('inf')
+            action_name = 'forced_analyzer'
+        else:
+            # 3. Log step
+            action_name = None
+            for k, v in ACTION_MAP.items():
+                if v == best_action_fn:
+                    action_name = k
+                    break
+            if action_name is None:
+                # fallback: use function name
+                action_name = getattr(best_action_fn, '__name__', str(best_action_fn))
         # 2. Compute cost and distance (distance to previous state)
         cost = compute_cost(best_next_state, prev_state)
         distance = state_distance(best_next_state, prev_state)
         progress_val = compute_progress(best_next_state)
-        # 3. Log step
-        action_name = [k for k, v in ACTION_MAP.items() if v == best_action_fn][0]
         logger.log_step(step+1, action_name, cost, distance, score, getattr(best_next_state, 'output', ''), progress=progress_val)
         # 4. Print log line
         print(f"Step {step+1} | Action: {action_name} | Cost: {cost:.2f} | Dist: {distance:.2f} | Score: {score:.2f} | Progress: {progress_val:.2f}")

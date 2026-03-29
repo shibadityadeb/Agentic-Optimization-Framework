@@ -8,10 +8,20 @@ if TYPE_CHECKING:
 
 async def run(state: "State") -> "State":
     new_state = state.copy()
-    # Always improve output if possible
-    if new_state.output:
-        # Add a decision marker and a summary improvement
-        new_state.output = f"final: {new_state.output} [decision improved]"
+    old_output = new_state.output or ""
+    if old_output:
+        # Summarize analysis and add final recommendation (no 'final:' prefix)
+        summary = "\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock."
+        recommendation = "\nFinal Recommendation: Buy/Hold/Sell"
+        new_output = old_output
+        if "summary:" not in old_output:
+            new_output += summary
+        if "Final Recommendation:" not in old_output:
+            new_output += recommendation
+        # Prevent output shrinking
+        if len(new_output) < len(old_output):
+            return state
+        new_state.output = new_output
     else:
-        new_state.output = "final: no output"
+        new_state.output = "No analysis available.\nSummary: No findings.\nFinal Recommendation: Unable to provide recommendation."
     return new_state

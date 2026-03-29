@@ -1,0 +1,360 @@
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'trends', 'analysis', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'trends', 'analysis', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'trends', 'analysis', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'trends', 'analysis', 'recommendation'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'analysis', 'trends'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'analysis', 'risks', 'trends', 'recommendation'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'analysis', 'risks', 'trends'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.'
+FOUND SECTIONS: {'analysis'}
+PROGRESS: 0.3
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'recommendation', 'trends', 'analysis'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion'
+FOUND SECTIONS: {'trends', 'analysis'}
+PROGRESS: 0.6
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'recommendation', 'trends', 'analysis'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'recommendation', 'trends', 'analysis'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\nSummary: The above analysis covers key trends, risks, and insights for Tesla stock.\nFinal Recommendation: Buy/Hold/Sell'
+FOUND SECTIONS: {'risks', 'recommendation', 'trends', 'analysis'}
+PROGRESS: 1.0
+CALLED compute_progress
+OUTPUT: 'Analysis:\nTesla stock shows strong volatility.\n\nTrends:\n- Increasing EV demand\n- Market expansion\n\nRisks:\n- Competition\n- Market correction\n\nInsights:\n- Innovation leadership\n- Regulatory headwinds\n\nFurther detail: Expanded on previous sections.'
+FOUND SECTIONS: {'risks', 'trends', 'analysis'}
+PROGRESS: 0.8
