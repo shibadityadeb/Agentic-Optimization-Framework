@@ -1,0 +1,14 @@
+step,action,cost,workflow_type,distance,score,progress,output
+1,retriever,0.1,baseline,,,,
+2,analyzer,7.49,baseline,,,,
+3,decision,23.750000000000004,baseline,,,,
+1,analyzer,7.49,optimized,5.579999999999999,18.5,0.3,"Analysis:
+Tesla stock shows strong volatility."
+2,analyzer,15.805,optimized,12.01,25.575,0.6,"Analysis:
+Tesla stock shows strong volatility.
+
+Tr..."
+3,analyzer,18.895,optimized,9.79,22.0,0.8,"Analysis:
+Tesla stock shows strong volatility.
+
+Tr..."
